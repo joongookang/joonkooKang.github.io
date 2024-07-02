@@ -2,6 +2,7 @@
   "name": "online-help",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://joongookang.github.io/joonkooKang.github.io/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,7 +16,9 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "predeploy": "npm run build",
+    "deploy": "touch out/.nojekyll && gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@emotion/cache": "^11.11.0",

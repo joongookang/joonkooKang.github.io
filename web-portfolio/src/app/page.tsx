@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <main className="bg-[#4e54c8]">
+      <main className="bg-[#8f94fb]">
         <div className="flex p-2 text-white">
           <span className="animate-tracking-in-expand text-4xl font-bold">
             KANG
