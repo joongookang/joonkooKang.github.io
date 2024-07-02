@@ -29,6 +29,7 @@
     "@storybook/addon-postcss": "^2.0.0",
     "algoliasearch": "^4.22.1",
     "cheerio": "^1.0.0-rc.12",
+    "gh-pages": "^6.1.1",
     "highlight.js": "^11.9.0",
     "instantsearch.css": "^8.1.0",
     "microcms-js-sdk": "^2.7.0",
