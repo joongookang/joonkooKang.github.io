@@ -16,6 +16,10 @@ const config: Config = {
       colors: {
         "logo-blue": "#036EB7",
         "main-color": "#3055A1",
+        primaryColor: "#00B8FF",
+        secondaryColor: "#001F2B",
+        shadesOfBlue: "#00719c",
+        mainGray: "#e5e5e5",
       },
       fontFamily: {
         Rounded: [
@@ -25,62 +29,42 @@ const config: Config = {
           "Meiryo",
           "sans-serif",
         ],
+        noto: ['var(--font-noto)', 'sans-serif'],
+        dotGothic16: ['var(--font-dotGothic16)', 'sans-serif'],
+        audiowide: ['var(--font-audiowide)', 'var(--font-noto)', 'sans-serif'],
       },
       animation: {
-        "tracking-in-expand":
-          "tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000)   both",
-        "jello-vertical": "jello-vertical 0.8s ease   both",
-        typing: "typing 2s steps(20) infinite alternate, blink .7s infinite",
+        typewriter: "typewriter 2s steps(11) forwards",
+        caret:
+          "typewriter 2s steps(11) forwards, blink 1s steps(11) infinite 2s",
+        fadeIn: "fadeIn 1s ease-in-out",
       },
       keyframes: {
-        "tracking-in-expand": {
-          "0%": {
-            "letter-spacing": "-.5em",
-            opacity: "0",
-          },
-          "40%": {
-            opacity: ".6",
-          },
+        typewriter: {
           to: {
-            opacity: "1",
-          },
-        },
-        "jello-vertical": {
-          "0%,to": {
-            transform: "scale3d(1, 1, 1)",
-          },
-          "30%": {
-            transform: "scale3d(.75, 1.25, 1)",
-          },
-          "40%": {
-            transform: "scale3d(1.25, .75, 1)",
-          },
-          "50%": {
-            transform: "scale3d(.85, 1.15, 1)",
-          },
-          "65%": {
-            transform: "scale3d(1.05, .95, 1)",
-          },
-          "75%": {
-            transform: "scale3d(.95, 1.05, 1)",
-          },
-        },
-        typing: {
-          "0%": {
-            width: "0%",
-            visibility: "hidden",
-          },
-          "100%": {
-            width: "100%",
+            left: "100%",
           },
         },
         blink: {
+          "0%": {
+            opacity: "0",
+          },
+          "0.1%": {
+            opacity: "1",
+          },
           "50%": {
-            borderColor: "transparent",
+            opacity: "1",
+          },
+          "50.1%": {
+            opacity: "0",
           },
           "100%": {
-            borderColor: "white",
+            opacity: "0",
           },
+        },
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
         },
       },
     },
