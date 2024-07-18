@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[547],{1547:function(t){t.exports=JSON.parse('{"title":"안녕하세요. 저는 강준구입니다.","subtitle":"저는 풀스택 개발자입니다.","about":"어바웃","font":"font-dongle","fontTitleSize":"text-6xl","fontSubSize":"text-xl"}')}}]);
