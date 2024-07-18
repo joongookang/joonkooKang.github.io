@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[721],{5721:function(t){t.exports=JSON.parse('{"title":"初めまして。私はカンジュンクです。","subtitle":"私はフルスタックエンジニアです。","about":"어바웃","font":"font-noto","fontTSize":"text-4xl","fontSize":""}')}}]);
