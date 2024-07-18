@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[766],{766:function(e){e.exports=JSON.parse('{"title":"Hello、i\'m Joonkoo Kang.","subtitle":"i\'m a full-stack developer","about":"어바웃","font":"font-dongle","fontTitleSize":"text-5xl","fontSubSize":"text-xl"}')}}]);
