@@ -9,9 +9,9 @@ const prefix =
     : "";
 
 const nextConfig = {
-  // output: "export",
-  // assetPrefix: prefix,
-  // basePath: "/joonkooKang.github.io",
+  output: "export",
+  assetPrefix: prefix,
+  basePath: "/joonkooKang.github.io",
 };
 
 export default nextConfig;

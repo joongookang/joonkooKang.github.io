@@ -22,16 +22,9 @@ const config: Config = {
         mainGray: "#e5e5e5",
       },
       fontFamily: {
-        Rounded: [
-          "Helvetica Neue",
-          "Arial",
-          "Hiragino Sans",
-          "Meiryo",
-          "sans-serif",
-        ],
-        noto: ['var(--font-noto)', 'sans-serif'],
-        dotGothic16: ['var(--font-dotGothic16)', 'sans-serif'],
-        audiowide: ['var(--font-audiowide)', 'var(--font-noto)', 'sans-serif'],
+        noto: ["var(--font-noto)", "sans-serif"],
+        dongle: ["var(--font-dongle)", "sans-serif"],
+        m_plus: ["var(--font-m_plus)", "sans-serif"],
       },
       animation: {
         typewriter: "typewriter 2s steps(11) forwards",

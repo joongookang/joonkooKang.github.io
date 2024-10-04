@@ -49,6 +49,7 @@
     "react-instantsearch": "^7.7.0",
     "react-instantsearch-nextjs": "^0.1.14",
     "request": "^2.88.2",
+    "swiper": "^11.1.5",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {

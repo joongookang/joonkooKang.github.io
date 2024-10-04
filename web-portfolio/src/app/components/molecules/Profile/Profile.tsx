@@ -1,7 +1,14 @@
 import { useEffect, useRef, useState } from "react";
 
+interface ProfileProps {
+  whoT: string;
+  who: string;
+  profileSize: string;
+  profileSubSize: string;
+}
+
 /**Profileコンポーネント */
-export const Profile = () => {
+export const Profile = ({ whoT, who, profileSize, profileSubSize }: ProfileProps) => {
   const [isVisible, setIsVisible] = useState(false);
   const profileRef = useRef<HTMLDivElement>(null);
 
@@ -39,11 +46,9 @@ export const Profile = () => {
         alt="User Profile"
         className="xs:size-32 rounded-full object-cover shadow-xl outline outline-2 outline-offset-2 outline-shadesOfBlue sm:size-40 md:size-48 lg:size-64 xl:size-64"
       />
-      <div className="mt-2 text-4xl">Who&apos;s this guy?</div>
-      <p className="my-3 w-96 text-base text-gray-500">
-        I&apos;m a Front-End Developer for ChowNow in Los Angeles, CA. I have
-        serious passion for UI effects, animations and creating intuitive,
-        dynamic user experiences. Let&apos;s make something special.
+      <div className={`mt-2 ${profileSize}`}>{whoT}</div>
+      <p className={`my-3 w-96 ${profileSubSize} text-gray-500`}>
+        {who}
       </p>
     </div>
   );

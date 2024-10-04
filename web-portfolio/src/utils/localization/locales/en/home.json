@@ -1,5 +1,8 @@
 {
   "title": "Hello、i'm Joonkoo Kang.",
   "subtitle": "i'm a full-stack developer",
-  "about": "어바웃"
+  "about": "어바웃",
+  "font": "font-dongle",
+  "fontTitleSize": "text-4xl",
+  "fontSubSize": "text-xl"
 }

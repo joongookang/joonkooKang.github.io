@@ -9,10 +9,12 @@ type Card = {
 
 interface CardMenuProps {
   cardData: Card[];
+  fontTSize: string;
+  fontSize: string;
 }
 
 /**メニューコンポーネント */
-export const CardMenu = ({ cardData }: CardMenuProps) => {
+export const CardMenu = ({ cardData, fontTSize, fontSize }: CardMenuProps) => {
   return (
     <div className="mx-auto my-16 grid w-fit grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
       {cardData.map((card, index) => (
@@ -22,6 +24,8 @@ export const CardMenu = ({ cardData }: CardMenuProps) => {
           title={card.title}
           description={card.description}
           delay={index * 200} // 各カードに遅延を設定
+          fontTSize={fontTSize}
+          fontSize={fontSize}
         />
       ))}
     </div>

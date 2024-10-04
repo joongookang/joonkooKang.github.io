@@ -1,5 +1,8 @@
 {
   "title": "初めまして。私はカンジュンクです。",
   "subtitle": "私はフルスタックエンジニアです。",
-  "about": "어바웃"
+  "about": "어바웃",
+  "font": "font-noto",
+  "fontTitleSize": "text-4xl",
+  "fontSubSize": ""
 }

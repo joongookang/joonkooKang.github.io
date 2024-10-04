@@ -13,8 +13,8 @@ export const Menu = ({ locale }: MenuProps) => {
       <MenuButton href="" locale={locale}>
         Home
       </MenuButton>
-      <MenuButton href="/PROFILE" locale={locale}>
-        PROFILE
+      <MenuButton href="/ABOUT" locale={locale}>
+        ABOUT
       </MenuButton>
       <MenuButton href="/WORK" locale={locale}>
         WORK
